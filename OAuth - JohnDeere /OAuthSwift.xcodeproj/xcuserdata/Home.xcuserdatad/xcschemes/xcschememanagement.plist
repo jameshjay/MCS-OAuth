@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>OAuthSwift.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>OAuthSwiftDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>OAuthSwiftOSX.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>OAuthSwiftOSXDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C48B28011AFA598D00C7DEF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C49FD5231AFB5DF500791E1A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F43502791A6791B200038A29</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F451E3C4195B8CD80051434C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
