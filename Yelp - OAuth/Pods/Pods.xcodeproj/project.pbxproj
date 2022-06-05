@@ -1,0 +1,1373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A435A19A10C50E3D835F6F7F5E6D0CC /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77D513CD4F7889C5DB4F5829934F14 /* ImagePrefetcher.swift */; };
+		0C1B4E9FFB8B81E8833A3BAD537B1990 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA402DC98132B9DD89EFABA9DD7328 /* Notifications.swift */; };
+		12118C354EFA36292F82A8D0CFCE45B2 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84FBF8F2FB1CB47C5647D7F1C757897 /* Request.swift */; };
+		1330F357DE32DAC66C61CD4BD916B123 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EEF5AFB2BE8923613F5907683AFA31 /* KingfisherManager.swift */; };
+		14F48F513ED9DCDC15178887407CF4E1 /* OAuthWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38288ADD6582BB1D0ADA8E56F9F9D744 /* OAuthWebViewController.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		19D650156844CF5326AF35EAB3A1B700 /* UIApplication+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D0E98B64DC8F25AB5A61E1D7FA3FC /* UIApplication+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22CA9A345EF657E770BB3BDD68D3A310 /* Pods-Yelp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D84E129D2ED700E03D3A999954F30C02 /* Pods-Yelp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		283346C9C1384761E6E0A4DFE0FAA21E /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B6BD99DBD630A06DB8C9080A3CB84 /* ImageDownloader.swift */; };
+		2FE45D4EBA83F7896A7D7AAE7C2ABFC2 /* OAuthSwiftMultipartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CE8F8F0AADFBF626CBAC988581BB4 /* OAuthSwiftMultipartData.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35C15A0419B720DF347AA142315A9912 /* OAuthSwiftError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DC7377064987AA7474F2B4B372C958 /* OAuthSwiftError.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		387ECC4DA86DC1AAAF80AFA986CE75D2 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B223F20B25242FE22869128F12EC52E7 /* HMAC.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3982B850C43B41BA6D25F440F0412E9B /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF5B04FFB552F92A74CEC68B600060 /* Timeline.swift */; };
+		3C0F28C1746364E4A38F7764CD9D9AEE /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FBCF6E3F0237811DC8153FADE8DE4 /* KingfisherOptionsInfo.swift */; };
+		42E03CE75BC39A8CAC7FB8D5555F23C5 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FF04BFCFEAD1D2BF08CA2EB9D4FE4 /* ImageView+Kingfisher.swift */; };
+		46AB26B9B4A76A97C5A46523971F454D /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53E828039E7D28AA1A243A3120771E0 /* Indicator.swift */; };
+		4725DA5218008EFF85D72449B779B81C /* Pods-YelpTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CBAB2A67A150E235F91B88B6A4CB1C /* Pods-YelpTests-dummy.m */; };
+		473A9085410554074ED17F48C4BB8308 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232CC40B6BDED99579A8A76AF55C1F9B /* CFNetwork.framework */; };
+		54D416205D796E929E4E0C0B0B94B458 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E3050539FD0927C318B4F3C7DE98C /* ImageTransition.swift */; };
+		57BF5AB680E6CBD4BF7A3F1C08E6E0F8 /* OAuthSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D35435CACA24B54507C815B2E3FB9 /* OAuthSwift-dummy.m */; };
+		5A05AAE1A11239C5E0823A6203003105 /* Dictionary+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3363BF3B2DF20D52FD9076B3AA3637B /* Dictionary+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		61387DD9DE30ADE15E67F69E716F9136 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5171CF1CCDF003505EAE015097DBB6A1 /* ThreadHelper.swift */; };
+		62143065F94E53F437DCE5D7A998D66D /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53833CD1A98823A9FDDC4C27693B98 /* AFError.swift */; };
+		63A5762D309F9F6C315F4A8BA3A9ABCB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67B682C7C08BC3862C42915A1EA002 /* Utils.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6464A760FC2D86BCBE5DAA8395854098 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8895DF624B5228092C365F8B4B23DEA4 /* ImageCache.swift */; };
+		6ADEC4A0A1BEC3B64ECFEB297AF0C4D3 /* Int+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC78AB82BCA4B1B7BC81FFB9F3B877B1 /* Int+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6F14F30A62820A04E98CA0547FFD3C41 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB722216D1333B5BD2DFAF96845FA8DA /* RequestModifier.swift */; };
+		740A8E4B1766B764EC75B0A81628D935 /* OAuthSwiftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318123F2AADA3308B7DE35B749DD76C7 /* OAuthSwiftClient.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		756EBA097EFB01DDDB70A460B444204D /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCACEBBE98D9F852FA3EA0C2BCF726 /* ImageProcessor.swift */; };
+		758CD2D8A26FA25CB2FAD59432A5099B /* OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F6390A4E9FB378DCCAC9BC18D6B98E /* OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7B76F6732F952A60D3A325F7B1301AAB /* Data+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E5F35CF699E904B2C61CB015260C1E /* Data+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7CA5A9BA5246FDA8227233E310029392 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB67E4AFE90223AB249E054734794367 /* Alamofire.swift */; };
+		7EEFEA01BB79010EB76AA31366ECBE4A /* OAuth2Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F98F9271DCDDE8A11D13CD643943E8 /* OAuth2Swift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		86ED08F33B7D357932A9AB743E9D9EA7 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D03248FF7BBE0C41AEE7FD00EAE3A5 /* Response.swift */; };
+		8D463A0A4C65C02FDD5211F0F3C6F8B8 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F31202F2068DB69FD34C1ABC83594E3B /* Alamofire-dummy.m */; };
+		8DBA83DA7327FE5D6C8D4AEA11B88256 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */; };
+		907AB123FBC8BC9340D5B7350CE828DF /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17827222C68977005DF0A094A1FDF02C /* SessionDelegate.swift */; };
+		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A2FFAEDEB92E5E1EAA99FF2EA75AED /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		960C7A5F207BDE7131D825E69CF1ACEA /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE902E21D03863FBB7AFC43E3D8337 /* Kingfisher.swift */; };
+		98230F80AB321A724AE94A099C6648C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */; };
+		9FEB1DFB771D76CA87776F43C40908FB /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89906EDD0F96790D27E3B10B22F10E3B /* CacheSerializer.swift */; };
+		A2048204CFAC4902B0D4325B7D1451CA /* OAuthSwiftHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF396536F854C9807999E0C07C20593 /* OAuthSwiftHTTPRequest.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A6B8B6E5B099FD862507A5C34158CE29 /* OAuth1Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565EA004481208872BE11CCC3883993 /* OAuth1Swift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A79AC30123B0C2177D67F6ED6A1B3215 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F01A4FB35790EA90312D1490F213837 /* SessionManager.swift */; };
+		AB98BD1B2C8053A6506666ED3E1E647A /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A068DF696ED3BDFC89EABB1F303E6F /* AnimatedImageView.swift */; };
+		AF158CAAF4DD319009AFC855DC995D90 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB52EEAC13CC4DF9F486F014F775FD /* ParameterEncoding.swift */; };
+		B195B8D60B465A404AA4BD245F23F39F /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = E214E6BB43D7C89EAE5A4AFE59021F69 /* Box.swift */; };
+		B54E278B102D7CD2CDBF54E0595FD29F /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B1F8229629DFC934349975D503F3E8 /* Resource.swift */; };
+		B5D12FFE46AAFCE2F33FF7AE48C916CD /* String+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9C7488E8C4EBCC99BED0E18DBE95 /* String+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B7FE2F01DE71513E20C3FB4776FA3064 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D450840BA9EE1669A6F3668D711D26 /* Image.swift */; };
+		B8154C96802336E5DDA5CEE97C3180A0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26190F8730DE36DDCFF66B0C44E092 /* ResponseSerialization.swift */; };
+		BFAEDE1C7E98E49E5D117F01A0F229EA /* OAuthSwiftURLHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA72CF21E62D823544213512A7C0C37 /* OAuthSwiftURLHandlerType.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0AEA97E7684DDAD56998C0AE198A433 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886A0C9F119D3922DE920A46AC76DE7 /* ServerTrustPolicy.swift */; };
+		C1FEEA8B059EA7832FE7DB7817034028 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191B284E1BF4FED5DE5233FDFEF30BA0 /* SHA1.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C62B276A579FAECAA1C5361B8A45DEA1 /* URL+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EA6C47BBC5473CBA3242903578E4CF /* URL+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C792EC3536325C7BF8951D4D300381F9 /* OAuthSwiftCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = F797F8F16F502152FAECF1EFCF3A7C82 /* OAuthSwiftCredential.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C7A0839608923DB0EEDFDB0008CE819C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */; };
+		C7A3408350643ADE1018826C766EE356 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9563654016C6816C6AC8B57E06A4C3 /* MultipartFormData.swift */; };
+		CFCB1ABAEEF214C2EC30396F4D8F2E99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */; };
+		D4CED4C47D732C0911FE53F62BE3AEAE /* NSError+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F122AB8C746F11DE790312685349D7 /* NSError+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D65D48536F5AB43277AB0CFBE4E659F5 /* Pods-YelpUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ED2DF65D5583A1149DF5841A8CA5C /* Pods-YelpUITests-dummy.m */; };
+		D96A6C6E1676F9832AA3BE49E22AAEBA /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 199331F8F2BB5992BACDE7040053B463 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D99026C1071B1815E56058AF73D5ACC2 /* Pods-Yelp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0AE06A333E4D1DFB9AD458599B3FCC /* Pods-Yelp-dummy.m */; };
+		DA3D12F6D902799FE261ED03450C10B3 /* Collection+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAD8E8FDBB864E4C04F89B9E873BD70 /* Collection+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DE59A34ACCD9B09ECBBD8C4724182E03 /* Pods-YelpUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA27E1B5D954DCC47886E49B511594D1 /* Pods-YelpUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF1BBF94997A2F4248B42B25EA919EC2 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D03A08AC5B713AABA7CDBFE95167 /* Result.swift */; };
+		DFB4DA5CAE6AC7E56D1A35A9D42ABE00 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D807A0FBE4A01BFBC1CB7412D302B5 /* String+MD5.swift */; };
+		E1F583CB4A68A928CD197250AA752926 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF568A4979F401A9BB52B97AA9AAF2EC /* TaskDelegate.swift */; };
+		E2A1C34237B4E928E5F85C097F4C2551 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B29DB09AAE92B09E36869A0B018144 /* DispatchQueue+Alamofire.swift */; };
+		E4BBE0128CC334426985205DDA9B631D /* OAuthSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB0AC3E769B9F0E9B43A1F2F597D94C /* OAuthSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E59BF19C0AFA68B741552319FC478C7B /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8024AFD9F35EEBDE29257B543C06FC85 /* NetworkReachabilityManager.swift */; };
+		EC87036F7756145B302265B4CE3887E6 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F8D9BF4F12E9BFE560BE22FE2A9096 /* Kingfisher-dummy.m */; };
+		EE2F34B0BA1B34C7A826B60ED1F34F46 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4C09B98D514120C71E0C72AB289215 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1CA7DA278E88E784FA6E5BFC2D5F94A /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D50F4065F38DBF5D03A0E42E577C94B /* Filter.swift */; };
+		FC1E8C3EDFE946F10961238E72ED43A9 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E592E76106CF5D357B8367390F1784A /* UIButton+Kingfisher.swift */; };
+		FC62E2458E887926EAEAF00D06A143EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */; };
+		FDDE154C7D90435C4F23B048FDD1D51C /* Pods-YelpTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AAED7CF1C55E53A06416684578A15BD /* Pods-YelpTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFDD494EE6D1B83DDAF5F2721F685A6 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFDC622D1B8293DF8494F6841A27158 /* Validation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EC6FE63FE6BFB78889C8A7CA7820E93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+		2004D268FC34CDDDFCEF1556F5611CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AC5CA11A5E7C3170E85D458DE15ED94;
+			remoteInfo = OAuthSwift;
+		};
+		ACA583E81C09D9FE01AB25F20DE7EA39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE93A359FA21F91DFBE81309E851A4A;
+			remoteInfo = Kingfisher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F98F9271DCDDE8A11D13CD643943E8 /* OAuth2Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Swift.swift; path = Sources/OAuth2Swift.swift; sourceTree = "<group>"; };
+		013E3050539FD0927C318B4F3C7DE98C /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
+		05A068DF696ED3BDFC89EABB1F303E6F /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
+		084B93B4E8A17E9BEB7376C4D91C0E6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B4ED2DF65D5583A1149DF5841A8CA5C /* Pods-YelpUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YelpUITests-dummy.m"; sourceTree = "<group>"; };
+		0E8D0E98B64DC8F25AB5A61E1D7FA3FC /* UIApplication+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+OAuthSwift.swift"; path = "Sources/UIApplication+OAuthSwift.swift"; sourceTree = "<group>"; };
+		1101C00AC8137FF1E6C30C372429BA6C /* Pods-YelpUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpUITests-frameworks.sh"; sourceTree = "<group>"; };
+		17827222C68977005DF0A094A1FDF02C /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		191B284E1BF4FED5DE5233FDFEF30BA0 /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/SHA1.swift; sourceTree = "<group>"; };
+		199331F8F2BB5992BACDE7040053B463 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
+		1BAD8E8FDBB864E4C04F89B9E873BD70 /* Collection+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+OAuthSwift.swift"; path = "Sources/Collection+OAuthSwift.swift"; sourceTree = "<group>"; };
+		1BFB4E298CC56B6231B752E4E711C604 /* Pods-Yelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Yelp.release.xcconfig"; sourceTree = "<group>"; };
+		1F01A4FB35790EA90312D1490F213837 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		232CC40B6BDED99579A8A76AF55C1F9B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		24F4F96DC022F86B1D9D3B92BF3456A6 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		260A0D28ECFC10F83D37FE3C21C4C1AD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		2AAED7CF1C55E53A06416684578A15BD /* Pods-YelpTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YelpTests-umbrella.h"; sourceTree = "<group>"; };
+		2EF0D96C6FE5612F1F788B3152D4C084 /* Pods_YelpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		318123F2AADA3308B7DE35B749DD76C7 /* OAuthSwiftClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftClient.swift; path = Sources/OAuthSwiftClient.swift; sourceTree = "<group>"; };
+		344CE8F8F0AADFBF626CBAC988581BB4 /* OAuthSwiftMultipartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftMultipartData.swift; path = Sources/OAuthSwiftMultipartData.swift; sourceTree = "<group>"; };
+		348C017F0749ABC9A242706CD1EAF7BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3652E660BC28136A6A827FCABF5C75F9 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		38288ADD6582BB1D0ADA8E56F9F9D744 /* OAuthWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthWebViewController.swift; path = Sources/OAuthWebViewController.swift; sourceTree = "<group>"; };
+		3D3D35435CACA24B54507C815B2E3FB9 /* OAuthSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OAuthSwift-dummy.m"; sourceTree = "<group>"; };
+		45EEF5AFB2BE8923613F5907683AFA31 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
+		46EA6C47BBC5473CBA3242903578E4CF /* URL+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+OAuthSwift.swift"; path = "Sources/URL+OAuthSwift.swift"; sourceTree = "<group>"; };
+		4CA72CF21E62D823544213512A7C0C37 /* OAuthSwiftURLHandlerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftURLHandlerType.swift; path = Sources/OAuthSwiftURLHandlerType.swift; sourceTree = "<group>"; };
+		4D38BF941A18A1AECB86D5F6F593C4BE /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		4E2B6BD99DBD630A06DB8C9080A3CB84 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
+		4E592E76106CF5D357B8367390F1784A /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		5171CF1CCDF003505EAE015097DBB6A1 /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
+		522FF04BFCFEAD1D2BF08CA2EB9D4FE4 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		529F71FF4970E6DEB5E4402B2D98D821 /* Pods-YelpUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YelpUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57692C471B271E47E41C2E1BA74C51E0 /* Pods-YelpTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelpTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		583A1923C219E6FE88E9A008C0A123F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5886A0C9F119D3922DE920A46AC76DE7 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		5A0F053FF5CE061EAC5F981C9B680F5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9563654016C6816C6AC8B57E06A4C3 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		5C53833CD1A98823A9FDDC4C27693B98 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		5D2A9C7488E8C4EBCC99BED0E18DBE95 /* String+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+OAuthSwift.swift"; path = "Sources/String+OAuthSwift.swift"; sourceTree = "<group>"; };
+		5D941BB5C43E7C8E63AA03149C60C1F0 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		5F77D513CD4F7889C5DB4F5829934F14 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		636D1E17615272F46F79A69150BC31D2 /* Pods-Yelp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Yelp-resources.sh"; sourceTree = "<group>"; };
+		63D807A0FBE4A01BFBC1CB7412D302B5 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
+		6C67B682C7C08BC3862C42915A1EA002 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
+		6D50F4065F38DBF5D03A0E42E577C94B /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		6F4C09B98D514120C71E0C72AB289215 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		6FBF5B04FFB552F92A74CEC68B600060 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		71142965D06A6041851D0B61ADE54185 /* OAuthSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAuthSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E5F35CF699E904B2C61CB015260C1E /* Data+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+OAuthSwift.swift"; path = "Sources/Data+OAuthSwift.swift"; sourceTree = "<group>"; };
+		72ECAEC326EFC15787317CABE6CEB739 /* Pods_Yelp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yelp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F8D9BF4F12E9BFE560BE22FE2A9096 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		77FCACEBBE98D9F852FA3EA0C2BCF726 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
+		7A6CB7BB6E83D023F6E4B7169818FF3B /* Pods-Yelp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Yelp-frameworks.sh"; sourceTree = "<group>"; };
+		7C4EF8092BA0B687CDCF9D14B6D340CB /* Pods-YelpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C7A64FA3A80FF119F3D7B894607C053 /* Pods-YelpUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpUITests-resources.sh"; sourceTree = "<group>"; };
+		8024AFD9F35EEBDE29257B543C06FC85 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		80A2FFAEDEB92E5E1EAA99FF2EA75AED /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		80B1F8229629DFC934349975D503F3E8 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
+		85BBE581A57A4FCD98F5B7D15CB0CA74 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		883D63A6130DF73D6F8CF857A0847CBD /* Pods-YelpTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YelpTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8895DF624B5228092C365F8B4B23DEA4 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		89906EDD0F96790D27E3B10B22F10E3B /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		89EF7FC6CC65739142FF745FE2C29D0E /* Pods-Yelp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Yelp-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C5F7A993A47799D5356F956A579746B /* Pods-YelpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DF396536F854C9807999E0C07C20593 /* OAuthSwiftHTTPRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftHTTPRequest.swift; path = Sources/OAuthSwiftHTTPRequest.swift; sourceTree = "<group>"; };
+		90E22EF2B0C33D6B1148B38FAE648647 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93FA402DC98132B9DD89EFABA9DD7328 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		95EB21288B053929B187DACD2AF34207 /* Pods-YelpUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YelpUITests.modulemap"; sourceTree = "<group>"; };
+		96A6BB6A2A520DECE4D67B834B0891FF /* OAuthSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAuthSwift-prefix.pch"; sourceTree = "<group>"; };
+		9A3052EE03A0923722CCB76400FD0939 /* Pods-Yelp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Yelp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9DB0AC3E769B9F0E9B43A1F2F597D94C /* OAuthSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAuthSwift-umbrella.h"; sourceTree = "<group>"; };
+		A1F55C76790A3FD5BA12F4BB8F0C431C /* OAuthSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OAuthSwift.xcconfig; sourceTree = "<group>"; };
+		A2D450840BA9EE1669A6F3668D711D26 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		A33405D6E3E1573912E6476D0F27148C /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EB52EEAC13CC4DF9F486F014F775FD /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		A565EA004481208872BE11CCC3883993 /* OAuth1Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth1Swift.swift; path = Sources/OAuth1Swift.swift; sourceTree = "<group>"; };
+		A84FBF8F2FB1CB47C5647D7F1C757897 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		AB6BCD6A41AF9B569FD6D84072F9D3F3 /* Pods-Yelp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Yelp.modulemap"; sourceTree = "<group>"; };
+		ABFDC622D1B8293DF8494F6841A27158 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		AC6636A37C18074FA538F4A0E589E3FF /* Pods-YelpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC745F19304405A3BC20BF1BF78A4F10 /* Pods-YelpUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelpUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B07E6FEBC75623222EAB9D1448AFD7A2 /* OAuthSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OAuthSwift.modulemap; sourceTree = "<group>"; };
+		B223F20B25242FE22869128F12EC52E7 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/HMAC.swift; sourceTree = "<group>"; };
+		B321D93ACC90595CCED9AB6AE5458EAD /* Pods-Yelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Yelp.debug.xcconfig"; sourceTree = "<group>"; };
+		B5B29DB09AAE92B09E36869A0B018144 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		B8B9D03A08AC5B713AABA7CDBFE95167 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		B8DC7377064987AA7474F2B4B372C958 /* OAuthSwiftError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftError.swift; path = Sources/OAuthSwiftError.swift; sourceTree = "<group>"; };
+		BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BF568A4979F401A9BB52B97AA9AAF2EC /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		C14FBCF6E3F0237811DC8153FADE8DE4 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		C53E828039E7D28AA1A243A3120771E0 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
+		CC78AB82BCA4B1B7BC81FFB9F3B877B1 /* Int+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+OAuthSwift.swift"; path = "Sources/Int+OAuthSwift.swift"; sourceTree = "<group>"; };
+		CCCAFAC6F19E940FD3AB2475D0ED6260 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE26190F8730DE36DDCFF66B0C44E092 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		D2D03248FF7BBE0C41AEE7FD00EAE3A5 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		D6656B8F2049B7051F8C2B58F30E6D3D /* Pods_YelpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84E129D2ED700E03D3A999954F30C02 /* Pods-Yelp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Yelp-umbrella.h"; sourceTree = "<group>"; };
+		D911B76307B953A11B38F0351952A17D /* Pods-YelpTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpTests-frameworks.sh"; sourceTree = "<group>"; };
+		D9AFEAE9DC50E9D658FEDECCD10D3BD9 /* Pods-YelpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D9F122AB8C746F11DE790312685349D7 /* NSError+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSError+OAuthSwift.swift"; path = "Sources/NSError+OAuthSwift.swift"; sourceTree = "<group>"; };
+		DB67E4AFE90223AB249E054734794367 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		DB722216D1333B5BD2DFAF96845FA8DA /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
+		E214E6BB43D7C89EAE5A4AFE59021F69 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		E2F6390A4E9FB378DCCAC9BC18D6B98E /* OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwift.swift; path = Sources/OAuthSwift.swift; sourceTree = "<group>"; };
+		E3363BF3B2DF20D52FD9076B3AA3637B /* Dictionary+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+OAuthSwift.swift"; path = "Sources/Dictionary+OAuthSwift.swift"; sourceTree = "<group>"; };
+		EE0AE06A333E4D1DFB9AD458599B3FCC /* Pods-Yelp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Yelp-dummy.m"; sourceTree = "<group>"; };
+		F31202F2068DB69FD34C1ABC83594E3B /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		F4AE902E21D03863FBB7AFC43E3D8337 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
+		F797F8F16F502152FAECF1EFCF3A7C82 /* OAuthSwiftCredential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftCredential.swift; path = Sources/OAuthSwiftCredential.swift; sourceTree = "<group>"; };
+		F8CBAB2A67A150E235F91B88B6A4CB1C /* Pods-YelpTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YelpTests-dummy.m"; sourceTree = "<group>"; };
+		FA27E1B5D954DCC47886E49B511594D1 /* Pods-YelpUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YelpUITests-umbrella.h"; sourceTree = "<group>"; };
+		FADC33C1F788D22D3A4FF409247763F6 /* Pods-YelpTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YelpTests.modulemap"; sourceTree = "<group>"; };
+		FBB2B94C36AF797F248D517C50C8ED4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5FFC13C80AD85732BDF807C73CC9FB /* Pods-YelpTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpTests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A2DF02B542A17161162CA48FE208D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473A9085410554074ED17F48C4BB8308 /* CFNetwork.framework in Frameworks */,
+				8DBA83DA7327FE5D6C8D4AEA11B88256 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E385AC22D170ABB75D916A4E0FFDE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCB1ABAEEF214C2EC30396F4D8F2E99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACC82859DB3A606D3B7B1BC75BE67B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98230F80AB321A724AE94A099C6648C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86F4606B8528F6FEA762939E0F3F9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC62E2458E887926EAEAF00D06A143EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B82F76AFD789D5748549C21495461C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A0839608923DB0EEDFDB0008CE819C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11576F4858C74FCE33C83891835CADF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24F4F96DC022F86B1D9D3B92BF3456A6 /* Alamofire.framework */,
+				A33405D6E3E1573912E6476D0F27148C /* Kingfisher.framework */,
+				71142965D06A6041851D0B61ADE54185 /* OAuthSwift.framework */,
+				72ECAEC326EFC15787317CABE6CEB739 /* Pods_Yelp.framework */,
+				2EF0D96C6FE5612F1F788B3152D4C084 /* Pods_YelpTests.framework */,
+				D6656B8F2049B7051F8C2B58F30E6D3D /* Pods_YelpUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CD6C26256576153DADF0F7F7C89301B /* Pods-YelpTests */ = {
+			isa = PBXGroup;
+			children = (
+				348C017F0749ABC9A242706CD1EAF7BE /* Info.plist */,
+				FADC33C1F788D22D3A4FF409247763F6 /* Pods-YelpTests.modulemap */,
+				883D63A6130DF73D6F8CF857A0847CBD /* Pods-YelpTests-acknowledgements.markdown */,
+				57692C471B271E47E41C2E1BA74C51E0 /* Pods-YelpTests-acknowledgements.plist */,
+				F8CBAB2A67A150E235F91B88B6A4CB1C /* Pods-YelpTests-dummy.m */,
+				D911B76307B953A11B38F0351952A17D /* Pods-YelpTests-frameworks.sh */,
+				FF5FFC13C80AD85732BDF807C73CC9FB /* Pods-YelpTests-resources.sh */,
+				2AAED7CF1C55E53A06416684578A15BD /* Pods-YelpTests-umbrella.h */,
+				8C5F7A993A47799D5356F956A579746B /* Pods-YelpTests.debug.xcconfig */,
+				7C4EF8092BA0B687CDCF9D14B6D340CB /* Pods-YelpTests.release.xcconfig */,
+			);
+			name = "Pods-YelpTests";
+			path = "Target Support Files/Pods-YelpTests";
+			sourceTree = "<group>";
+		};
+		42AD183F0B7DC5A32D03E91F225954F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				232CC40B6BDED99579A8A76AF55C1F9B /* CFNetwork.framework */,
+				BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42AD183F0B7DC5A32D03E91F225954F3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		487B293D2BDFD178617F5730C67A4645 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				05A068DF696ED3BDFC89EABB1F303E6F /* AnimatedImageView.swift */,
+				E214E6BB43D7C89EAE5A4AFE59021F69 /* Box.swift */,
+				89906EDD0F96790D27E3B10B22F10E3B /* CacheSerializer.swift */,
+				6D50F4065F38DBF5D03A0E42E577C94B /* Filter.swift */,
+				A2D450840BA9EE1669A6F3668D711D26 /* Image.swift */,
+				8895DF624B5228092C365F8B4B23DEA4 /* ImageCache.swift */,
+				4E2B6BD99DBD630A06DB8C9080A3CB84 /* ImageDownloader.swift */,
+				5F77D513CD4F7889C5DB4F5829934F14 /* ImagePrefetcher.swift */,
+				77FCACEBBE98D9F852FA3EA0C2BCF726 /* ImageProcessor.swift */,
+				013E3050539FD0927C318B4F3C7DE98C /* ImageTransition.swift */,
+				522FF04BFCFEAD1D2BF08CA2EB9D4FE4 /* ImageView+Kingfisher.swift */,
+				C53E828039E7D28AA1A243A3120771E0 /* Indicator.swift */,
+				199331F8F2BB5992BACDE7040053B463 /* Kingfisher.h */,
+				F4AE902E21D03863FBB7AFC43E3D8337 /* Kingfisher.swift */,
+				45EEF5AFB2BE8923613F5907683AFA31 /* KingfisherManager.swift */,
+				C14FBCF6E3F0237811DC8153FADE8DE4 /* KingfisherOptionsInfo.swift */,
+				DB722216D1333B5BD2DFAF96845FA8DA /* RequestModifier.swift */,
+				80B1F8229629DFC934349975D503F3E8 /* Resource.swift */,
+				63D807A0FBE4A01BFBC1CB7412D302B5 /* String+MD5.swift */,
+				5171CF1CCDF003505EAE015097DBB6A1 /* ThreadHelper.swift */,
+				4E592E76106CF5D357B8367390F1784A /* UIButton+Kingfisher.swift */,
+				DEF91F5C2F20936646266D071ABFEF80 /* Support Files */,
+			);
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				DD63ED631DEFD73EF4DBE550E168C55F /* Pods */,
+				11576F4858C74FCE33C83891835CADF2 /* Products */,
+				B6F3F39F3716F42C17F171A92082C541 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84CB81A4F22813BE878598B7A42C72C3 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				5C53833CD1A98823A9FDDC4C27693B98 /* AFError.swift */,
+				DB67E4AFE90223AB249E054734794367 /* Alamofire.swift */,
+				B5B29DB09AAE92B09E36869A0B018144 /* DispatchQueue+Alamofire.swift */,
+				5A9563654016C6816C6AC8B57E06A4C3 /* MultipartFormData.swift */,
+				8024AFD9F35EEBDE29257B543C06FC85 /* NetworkReachabilityManager.swift */,
+				93FA402DC98132B9DD89EFABA9DD7328 /* Notifications.swift */,
+				A3EB52EEAC13CC4DF9F486F014F775FD /* ParameterEncoding.swift */,
+				A84FBF8F2FB1CB47C5647D7F1C757897 /* Request.swift */,
+				D2D03248FF7BBE0C41AEE7FD00EAE3A5 /* Response.swift */,
+				CE26190F8730DE36DDCFF66B0C44E092 /* ResponseSerialization.swift */,
+				B8B9D03A08AC5B713AABA7CDBFE95167 /* Result.swift */,
+				5886A0C9F119D3922DE920A46AC76DE7 /* ServerTrustPolicy.swift */,
+				17827222C68977005DF0A094A1FDF02C /* SessionDelegate.swift */,
+				1F01A4FB35790EA90312D1490F213837 /* SessionManager.swift */,
+				BF568A4979F401A9BB52B97AA9AAF2EC /* TaskDelegate.swift */,
+				6FBF5B04FFB552F92A74CEC68B600060 /* Timeline.swift */,
+				ABFDC622D1B8293DF8494F6841A27158 /* Validation.swift */,
+				FD5E04CCA525191F308E5610DA102DCA /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		88CB30F48C61D11CE7F70C2C5DB2E8C1 /* Pods-Yelp */ = {
+			isa = PBXGroup;
+			children = (
+				FBB2B94C36AF797F248D517C50C8ED4E /* Info.plist */,
+				AB6BCD6A41AF9B569FD6D84072F9D3F3 /* Pods-Yelp.modulemap */,
+				9A3052EE03A0923722CCB76400FD0939 /* Pods-Yelp-acknowledgements.markdown */,
+				89EF7FC6CC65739142FF745FE2C29D0E /* Pods-Yelp-acknowledgements.plist */,
+				EE0AE06A333E4D1DFB9AD458599B3FCC /* Pods-Yelp-dummy.m */,
+				7A6CB7BB6E83D023F6E4B7169818FF3B /* Pods-Yelp-frameworks.sh */,
+				636D1E17615272F46F79A69150BC31D2 /* Pods-Yelp-resources.sh */,
+				D84E129D2ED700E03D3A999954F30C02 /* Pods-Yelp-umbrella.h */,
+				B321D93ACC90595CCED9AB6AE5458EAD /* Pods-Yelp.debug.xcconfig */,
+				1BFB4E298CC56B6231B752E4E711C604 /* Pods-Yelp.release.xcconfig */,
+			);
+			name = "Pods-Yelp";
+			path = "Target Support Files/Pods-Yelp";
+			sourceTree = "<group>";
+		};
+		944DA24EF159694867DE34679EA235CA /* OAuthSwift */ = {
+			isa = PBXGroup;
+			children = (
+				1BAD8E8FDBB864E4C04F89B9E873BD70 /* Collection+OAuthSwift.swift */,
+				71E5F35CF699E904B2C61CB015260C1E /* Data+OAuthSwift.swift */,
+				E3363BF3B2DF20D52FD9076B3AA3637B /* Dictionary+OAuthSwift.swift */,
+				B223F20B25242FE22869128F12EC52E7 /* HMAC.swift */,
+				CC78AB82BCA4B1B7BC81FFB9F3B877B1 /* Int+OAuthSwift.swift */,
+				D9F122AB8C746F11DE790312685349D7 /* NSError+OAuthSwift.swift */,
+				A565EA004481208872BE11CCC3883993 /* OAuth1Swift.swift */,
+				00F98F9271DCDDE8A11D13CD643943E8 /* OAuth2Swift.swift */,
+				E2F6390A4E9FB378DCCAC9BC18D6B98E /* OAuthSwift.swift */,
+				318123F2AADA3308B7DE35B749DD76C7 /* OAuthSwiftClient.swift */,
+				F797F8F16F502152FAECF1EFCF3A7C82 /* OAuthSwiftCredential.swift */,
+				B8DC7377064987AA7474F2B4B372C958 /* OAuthSwiftError.swift */,
+				8DF396536F854C9807999E0C07C20593 /* OAuthSwiftHTTPRequest.swift */,
+				344CE8F8F0AADFBF626CBAC988581BB4 /* OAuthSwiftMultipartData.swift */,
+				4CA72CF21E62D823544213512A7C0C37 /* OAuthSwiftURLHandlerType.swift */,
+				38288ADD6582BB1D0ADA8E56F9F9D744 /* OAuthWebViewController.swift */,
+				191B284E1BF4FED5DE5233FDFEF30BA0 /* SHA1.swift */,
+				5D2A9C7488E8C4EBCC99BED0E18DBE95 /* String+OAuthSwift.swift */,
+				0E8D0E98B64DC8F25AB5A61E1D7FA3FC /* UIApplication+OAuthSwift.swift */,
+				46EA6C47BBC5473CBA3242903578E4CF /* URL+OAuthSwift.swift */,
+				6C67B682C7C08BC3862C42915A1EA002 /* Utils.swift */,
+				D848ADC7ACA5EE1FD009C65C5763D16D /* Support Files */,
+			);
+			path = OAuthSwift;
+			sourceTree = "<group>";
+		};
+		A5DD8FD79B4AFB8DCE862A78B046B70B /* Pods-YelpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				583A1923C219E6FE88E9A008C0A123F3 /* Info.plist */,
+				95EB21288B053929B187DACD2AF34207 /* Pods-YelpUITests.modulemap */,
+				529F71FF4970E6DEB5E4402B2D98D821 /* Pods-YelpUITests-acknowledgements.markdown */,
+				AC745F19304405A3BC20BF1BF78A4F10 /* Pods-YelpUITests-acknowledgements.plist */,
+				0B4ED2DF65D5583A1149DF5841A8CA5C /* Pods-YelpUITests-dummy.m */,
+				1101C00AC8137FF1E6C30C372429BA6C /* Pods-YelpUITests-frameworks.sh */,
+				7C7A64FA3A80FF119F3D7B894607C053 /* Pods-YelpUITests-resources.sh */,
+				FA27E1B5D954DCC47886E49B511594D1 /* Pods-YelpUITests-umbrella.h */,
+				AC6636A37C18074FA538F4A0E589E3FF /* Pods-YelpUITests.debug.xcconfig */,
+				D9AFEAE9DC50E9D658FEDECCD10D3BD9 /* Pods-YelpUITests.release.xcconfig */,
+			);
+			name = "Pods-YelpUITests";
+			path = "Target Support Files/Pods-YelpUITests";
+			sourceTree = "<group>";
+		};
+		B6F3F39F3716F42C17F171A92082C541 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88CB30F48C61D11CE7F70C2C5DB2E8C1 /* Pods-Yelp */,
+				2CD6C26256576153DADF0F7F7C89301B /* Pods-YelpTests */,
+				A5DD8FD79B4AFB8DCE862A78B046B70B /* Pods-YelpUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D848ADC7ACA5EE1FD009C65C5763D16D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCCAFAC6F19E940FD3AB2475D0ED6260 /* Info.plist */,
+				B07E6FEBC75623222EAB9D1448AFD7A2 /* OAuthSwift.modulemap */,
+				A1F55C76790A3FD5BA12F4BB8F0C431C /* OAuthSwift.xcconfig */,
+				3D3D35435CACA24B54507C815B2E3FB9 /* OAuthSwift-dummy.m */,
+				96A6BB6A2A520DECE4D67B834B0891FF /* OAuthSwift-prefix.pch */,
+				9DB0AC3E769B9F0E9B43A1F2F597D94C /* OAuthSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OAuthSwift";
+			sourceTree = "<group>";
+		};
+		DD63ED631DEFD73EF4DBE550E168C55F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84CB81A4F22813BE878598B7A42C72C3 /* Alamofire */,
+				487B293D2BDFD178617F5730C67A4645 /* Kingfisher */,
+				944DA24EF159694867DE34679EA235CA /* OAuthSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEF91F5C2F20936646266D071ABFEF80 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				084B93B4E8A17E9BEB7376C4D91C0E6C /* Info.plist */,
+				3652E660BC28136A6A827FCABF5C75F9 /* Kingfisher.modulemap */,
+				4D38BF941A18A1AECB86D5F6F593C4BE /* Kingfisher.xcconfig */,
+				77F8D9BF4F12E9BFE560BE22FE2A9096 /* Kingfisher-dummy.m */,
+				85BBE581A57A4FCD98F5B7D15CB0CA74 /* Kingfisher-prefix.pch */,
+				6F4C09B98D514120C71E0C72AB289215 /* Kingfisher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kingfisher";
+			sourceTree = "<group>";
+		};
+		FD5E04CCA525191F308E5610DA102DCA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90E22EF2B0C33D6B1148B38FAE648647 /* Alamofire.modulemap */,
+				5D941BB5C43E7C8E63AA03149C60C1F0 /* Alamofire.xcconfig */,
+				F31202F2068DB69FD34C1ABC83594E3B /* Alamofire-dummy.m */,
+				260A0D28ECFC10F83D37FE3C21C4C1AD /* Alamofire-prefix.pch */,
+				80A2FFAEDEB92E5E1EAA99FF2EA75AED /* Alamofire-umbrella.h */,
+				5A0F053FF5CE061EAC5F981C9B680F5A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		317BD84ED55AC7136523F31AC2AC7819 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CA9A345EF657E770BB3BDD68D3A310 /* Pods-Yelp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F1F2AC9CCBA3CFE0D9E137387FD314 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE59A34ACCD9B09ECBBD8C4724182E03 /* Pods-YelpUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD33267524A11469E9753983A1E6667 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BBE0128CC334426985205DDA9B631D /* OAuthSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865DCBE012424ADCD7390CD290C3F31A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDE154C7D90435C4F23B048FDD1D51C /* Pods-YelpTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07D2A8B30A1C35A24C6B9D689290840 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F34B0BA1B34C7A826B60ED1F34F46 /* Kingfisher-umbrella.h in Headers */,
+				D96A6C6E1676F9832AA3BE49E22AAEBA /* Kingfisher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF3B631BBB965A372347705CA14854 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DE93A359FA21F91DFBE81309E851A4A /* Kingfisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363F048EAA6933FA24F8FFB2537AE0B0 /* Build configuration list for PBXNativeTarget "Kingfisher" */;
+			buildPhases = (
+				0AD78F676A973D351DF90295476785D8 /* Sources */,
+				1A2DF02B542A17161162CA48FE208D3C /* Frameworks */,
+				C07D2A8B30A1C35A24C6B9D689290840 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kingfisher;
+			productName = Kingfisher;
+			productReference = A33405D6E3E1573912E6476D0F27148C /* Kingfisher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		285DC8E646222A616B01AF92F1BAEDA9 /* Pods-YelpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EB7FB7F08F57EC8318976F0D4E70AD /* Build configuration list for PBXNativeTarget "Pods-YelpTests" */;
+			buildPhases = (
+				0758DA8F9167B5D9713672AB2F0536D5 /* Sources */,
+				2E385AC22D170ABB75D916A4E0FFDE8E /* Frameworks */,
+				865DCBE012424ADCD7390CD290C3F31A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YelpTests";
+			productName = "Pods-YelpTests";
+			productReference = 2EF0D96C6FE5612F1F788B3152D4C084 /* Pods_YelpTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75B83EA70C04F6A0B6F5B42B7FB1992B /* Pods-YelpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F39C90877623593CC8CA61ED4B27CA7 /* Build configuration list for PBXNativeTarget "Pods-YelpUITests" */;
+			buildPhases = (
+				FD8BFBF44810696EF004E0BD77671489 /* Sources */,
+				D86F4606B8528F6FEA762939E0F3F9C3 /* Frameworks */,
+				40F1F2AC9CCBA3CFE0D9E137387FD314 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YelpUITests";
+			productName = "Pods-YelpUITests";
+			productReference = D6656B8F2049B7051F8C2B58F30E6D3D /* Pods_YelpUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				120C4E824DDCCA024C170A491FF221A5 /* Sources */,
+				B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */,
+				EFDF3B631BBB965A372347705CA14854 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 24F4F96DC022F86B1D9D3B92BF3456A6 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AC5CA11A5E7C3170E85D458DE15ED94 /* OAuthSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BD2E005FB4AFED47BDFA8BE61D0FC3B /* Build configuration list for PBXNativeTarget "OAuthSwift" */;
+			buildPhases = (
+				8018F2E81F5A7FE53986BA2A4F975F3B /* Sources */,
+				E8B82F76AFD789D5748549C21495461C /* Frameworks */,
+				6FD33267524A11469E9753983A1E6667 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OAuthSwift;
+			productName = OAuthSwift;
+			productReference = 71142965D06A6041851D0B61ADE54185 /* OAuthSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E09C37BA62B53CD8C5EBE7599D9C2A14 /* Pods-Yelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA11FCED3F46E7E3B3194598F2F3F7B /* Build configuration list for PBXNativeTarget "Pods-Yelp" */;
+			buildPhases = (
+				A3EA84596216493C49FB7CF7254EDAD8 /* Sources */,
+				AACC82859DB3A606D3B7B1BC75BE67B9 /* Frameworks */,
+				317BD84ED55AC7136523F31AC2AC7819 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45BD0A5CC6801EE05A83C886D363245 /* PBXTargetDependency */,
+				4A6337763F13EDA46B3F8674DBA9D73D /* PBXTargetDependency */,
+				2364E03D029EE7F0ED124C9E2E925ED8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Yelp";
+			productName = "Pods-Yelp";
+			productReference = 72ECAEC326EFC15787317CABE6CEB739 /* Pods_Yelp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 11576F4858C74FCE33C83891835CADF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
+				1DE93A359FA21F91DFBE81309E851A4A /* Kingfisher */,
+				8AC5CA11A5E7C3170E85D458DE15ED94 /* OAuthSwift */,
+				E09C37BA62B53CD8C5EBE7599D9C2A14 /* Pods-Yelp */,
+				285DC8E646222A616B01AF92F1BAEDA9 /* Pods-YelpTests */,
+				75B83EA70C04F6A0B6F5B42B7FB1992B /* Pods-YelpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0758DA8F9167B5D9713672AB2F0536D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4725DA5218008EFF85D72449B779B81C /* Pods-YelpTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD78F676A973D351DF90295476785D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB98BD1B2C8053A6506666ED3E1E647A /* AnimatedImageView.swift in Sources */,
+				B195B8D60B465A404AA4BD245F23F39F /* Box.swift in Sources */,
+				9FEB1DFB771D76CA87776F43C40908FB /* CacheSerializer.swift in Sources */,
+				F1CA7DA278E88E784FA6E5BFC2D5F94A /* Filter.swift in Sources */,
+				B7FE2F01DE71513E20C3FB4776FA3064 /* Image.swift in Sources */,
+				6464A760FC2D86BCBE5DAA8395854098 /* ImageCache.swift in Sources */,
+				283346C9C1384761E6E0A4DFE0FAA21E /* ImageDownloader.swift in Sources */,
+				0A435A19A10C50E3D835F6F7F5E6D0CC /* ImagePrefetcher.swift in Sources */,
+				756EBA097EFB01DDDB70A460B444204D /* ImageProcessor.swift in Sources */,
+				54D416205D796E929E4E0C0B0B94B458 /* ImageTransition.swift in Sources */,
+				42E03CE75BC39A8CAC7FB8D5555F23C5 /* ImageView+Kingfisher.swift in Sources */,
+				46AB26B9B4A76A97C5A46523971F454D /* Indicator.swift in Sources */,
+				EC87036F7756145B302265B4CE3887E6 /* Kingfisher-dummy.m in Sources */,
+				960C7A5F207BDE7131D825E69CF1ACEA /* Kingfisher.swift in Sources */,
+				1330F357DE32DAC66C61CD4BD916B123 /* KingfisherManager.swift in Sources */,
+				3C0F28C1746364E4A38F7764CD9D9AEE /* KingfisherOptionsInfo.swift in Sources */,
+				6F14F30A62820A04E98CA0547FFD3C41 /* RequestModifier.swift in Sources */,
+				B54E278B102D7CD2CDBF54E0595FD29F /* Resource.swift in Sources */,
+				DFB4DA5CAE6AC7E56D1A35A9D42ABE00 /* String+MD5.swift in Sources */,
+				61387DD9DE30ADE15E67F69E716F9136 /* ThreadHelper.swift in Sources */,
+				FC1E8C3EDFE946F10961238E72ED43A9 /* UIButton+Kingfisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120C4E824DDCCA024C170A491FF221A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62143065F94E53F437DCE5D7A998D66D /* AFError.swift in Sources */,
+				8D463A0A4C65C02FDD5211F0F3C6F8B8 /* Alamofire-dummy.m in Sources */,
+				7CA5A9BA5246FDA8227233E310029392 /* Alamofire.swift in Sources */,
+				E2A1C34237B4E928E5F85C097F4C2551 /* DispatchQueue+Alamofire.swift in Sources */,
+				C7A3408350643ADE1018826C766EE356 /* MultipartFormData.swift in Sources */,
+				E59BF19C0AFA68B741552319FC478C7B /* NetworkReachabilityManager.swift in Sources */,
+				0C1B4E9FFB8B81E8833A3BAD537B1990 /* Notifications.swift in Sources */,
+				AF158CAAF4DD319009AFC855DC995D90 /* ParameterEncoding.swift in Sources */,
+				12118C354EFA36292F82A8D0CFCE45B2 /* Request.swift in Sources */,
+				86ED08F33B7D357932A9AB743E9D9EA7 /* Response.swift in Sources */,
+				B8154C96802336E5DDA5CEE97C3180A0 /* ResponseSerialization.swift in Sources */,
+				DF1BBF94997A2F4248B42B25EA919EC2 /* Result.swift in Sources */,
+				C0AEA97E7684DDAD56998C0AE198A433 /* ServerTrustPolicy.swift in Sources */,
+				907AB123FBC8BC9340D5B7350CE828DF /* SessionDelegate.swift in Sources */,
+				A79AC30123B0C2177D67F6ED6A1B3215 /* SessionManager.swift in Sources */,
+				E1F583CB4A68A928CD197250AA752926 /* TaskDelegate.swift in Sources */,
+				3982B850C43B41BA6D25F440F0412E9B /* Timeline.swift in Sources */,
+				FFFDD494EE6D1B83DDAF5F2721F685A6 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8018F2E81F5A7FE53986BA2A4F975F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3D12F6D902799FE261ED03450C10B3 /* Collection+OAuthSwift.swift in Sources */,
+				7B76F6732F952A60D3A325F7B1301AAB /* Data+OAuthSwift.swift in Sources */,
+				5A05AAE1A11239C5E0823A6203003105 /* Dictionary+OAuthSwift.swift in Sources */,
+				387ECC4DA86DC1AAAF80AFA986CE75D2 /* HMAC.swift in Sources */,
+				6ADEC4A0A1BEC3B64ECFEB297AF0C4D3 /* Int+OAuthSwift.swift in Sources */,
+				D4CED4C47D732C0911FE53F62BE3AEAE /* NSError+OAuthSwift.swift in Sources */,
+				A6B8B6E5B099FD862507A5C34158CE29 /* OAuth1Swift.swift in Sources */,
+				7EEFEA01BB79010EB76AA31366ECBE4A /* OAuth2Swift.swift in Sources */,
+				57BF5AB680E6CBD4BF7A3F1C08E6E0F8 /* OAuthSwift-dummy.m in Sources */,
+				758CD2D8A26FA25CB2FAD59432A5099B /* OAuthSwift.swift in Sources */,
+				740A8E4B1766B764EC75B0A81628D935 /* OAuthSwiftClient.swift in Sources */,
+				C792EC3536325C7BF8951D4D300381F9 /* OAuthSwiftCredential.swift in Sources */,
+				35C15A0419B720DF347AA142315A9912 /* OAuthSwiftError.swift in Sources */,
+				A2048204CFAC4902B0D4325B7D1451CA /* OAuthSwiftHTTPRequest.swift in Sources */,
+				2FE45D4EBA83F7896A7D7AAE7C2ABFC2 /* OAuthSwiftMultipartData.swift in Sources */,
+				BFAEDE1C7E98E49E5D117F01A0F229EA /* OAuthSwiftURLHandlerType.swift in Sources */,
+				14F48F513ED9DCDC15178887407CF4E1 /* OAuthWebViewController.swift in Sources */,
+				C1FEEA8B059EA7832FE7DB7817034028 /* SHA1.swift in Sources */,
+				B5D12FFE46AAFCE2F33FF7AE48C916CD /* String+OAuthSwift.swift in Sources */,
+				19D650156844CF5326AF35EAB3A1B700 /* UIApplication+OAuthSwift.swift in Sources */,
+				C62B276A579FAECAA1C5361B8A45DEA1 /* URL+OAuthSwift.swift in Sources */,
+				63A5762D309F9F6C315F4A8BA3A9ABCB /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EA84596216493C49FB7CF7254EDAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99026C1071B1815E56058AF73D5ACC2 /* Pods-Yelp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8BFBF44810696EF004E0BD77671489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65D48536F5AB43277AB0CFBE4E659F5 /* Pods-YelpUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2364E03D029EE7F0ED124C9E2E925ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuthSwift;
+			target = 8AC5CA11A5E7C3170E85D458DE15ED94 /* OAuthSwift */;
+			targetProxy = 2004D268FC34CDDDFCEF1556F5611CF4 /* PBXContainerItemProxy */;
+		};
+		4A6337763F13EDA46B3F8674DBA9D73D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = 1DE93A359FA21F91DFBE81309E851A4A /* Kingfisher */;
+			targetProxy = ACA583E81C09D9FE01AB25F20DE7EA39 /* PBXContainerItemProxy */;
+		};
+		E45BD0A5CC6801EE05A83C886D363245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = 1EC6FE63FE6BFB78889C8A7CA7820E93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		05EF695935C0D8EF6A3EEE140F134E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F55C76790A3FD5BA12F4BB8F0C431C /* OAuthSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OAuthSwift/OAuthSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OAuthSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OAuthSwift/OAuthSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OAuthSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11DE5113850DDE1FEC6254F813F83B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D38BF941A18A1AECB86D5F6F593C4BE /* Kingfisher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32AD5F8918CA8B349E4671410FA624C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D941BB5C43E7C8E63AA03149C60C1F0 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F53272B4E5E6820890ECD544235BF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D38BF941A18A1AECB86D5F6F593C4BE /* Kingfisher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66A1AF7A9CB72AEE50E212DF7E7AF4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9AFEAE9DC50E9D658FEDECCD10D3BD9 /* Pods-YelpUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpUITests/Pods-YelpUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E23A2771BDD06B933E9E52D0C3D0895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BFB4E298CC56B6231B752E4E711C604 /* Pods-Yelp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Yelp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Yelp/Pods-Yelp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Yelp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75218111E718FACE36F771E8ABECDB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D941BB5C43E7C8E63AA03149C60C1F0 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		878B771E9F479E067D1AA02F03DE0D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F55C76790A3FD5BA12F4BB8F0C431C /* OAuthSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OAuthSwift/OAuthSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OAuthSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OAuthSwift/OAuthSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OAuthSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0164687414AB6A2A196CFAF40FC87CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5F7A993A47799D5356F956A579746B /* Pods-YelpTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpTests/Pods-YelpTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB19CFBD8E39570A82AC05433222AED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6636A37C18074FA538F4A0E589E3FF /* Pods-YelpUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpUITests/Pods-YelpUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B912311CD4C197F9C513974D2811975D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4EF8092BA0B687CDCF9D14B6D340CB /* Pods-YelpTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpTests/Pods-YelpTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7F2258E0C2B97D09813DF1584E134E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B321D93ACC90595CCED9AB6AE5458EAD /* Pods-Yelp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Yelp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Yelp/Pods-Yelp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Yelp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F39C90877623593CC8CA61ED4B27CA7 /* Build configuration list for PBXNativeTarget "Pods-YelpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB19CFBD8E39570A82AC05433222AED3 /* Debug */,
+				66A1AF7A9CB72AEE50E212DF7E7AF4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA11FCED3F46E7E3B3194598F2F3F7B /* Build configuration list for PBXNativeTarget "Pods-Yelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F2258E0C2B97D09813DF1584E134E3 /* Debug */,
+				6E23A2771BDD06B933E9E52D0C3D0895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363F048EAA6933FA24F8FFB2537AE0B0 /* Build configuration list for PBXNativeTarget "Kingfisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DE5113850DDE1FEC6254F813F83B6A /* Debug */,
+				3F53272B4E5E6820890ECD544235BF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75218111E718FACE36F771E8ABECDB62 /* Debug */,
+				32AD5F8918CA8B349E4671410FA624C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67EB7FB7F08F57EC8318976F0D4E70AD /* Build configuration list for PBXNativeTarget "Pods-YelpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0164687414AB6A2A196CFAF40FC87CC /* Debug */,
+				B912311CD4C197F9C513974D2811975D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BD2E005FB4AFED47BDFA8BE61D0FC3B /* Build configuration list for PBXNativeTarget "OAuthSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05EF695935C0D8EF6A3EEE140F134E30 /* Debug */,
+				878B771E9F479E067D1AA02F03DE0D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

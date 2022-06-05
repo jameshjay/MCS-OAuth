@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.2.0)
+  - Kingfisher (3.2.2)
+  - OAuthSwift (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Kingfisher (~> 3.0)
+  - OAuthSwift (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  Kingfisher: 821466474ad7ffc375a4aecadfa05068cfed67b3
+  OAuthSwift: dd4f502ffd4f6e122b861b5e4529bf6454a30fe6
+
+PODFILE CHECKSUM: c784a17d6756c307bd4edd482ae42035a329e46b
+
+COCOAPODS: 1.0.0
